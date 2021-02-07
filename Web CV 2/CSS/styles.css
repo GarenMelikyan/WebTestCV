@@ -1,0 +1,39 @@
+body {
+  background-color: #c7ffd8;
+}
+
+aside {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+}
+
+main {
+  background-color: blue;
+  display: inline-block;
+  position: absolute;
+  left: 150px;
+}
+
+footer {
+  background-color: orange;
+  display: inline-block;
+  position: absolute;
+  top: 600px;
+}
+
+@font-face {
+  font-family: haikakan;
+  src: url(../fonts/Armguard.ttf);
+}
+
+.armenian {
+  font-style: oblique;
+  font-family: haikakan;
+  font-size: 1.5rem;
+}
+
+.english {
+  font-family: 'Hanalei', cursive;
+  font-size: 2rem;
+}
